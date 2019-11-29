@@ -46,6 +46,8 @@ WHY
   border-radius: 50%;
 }
 
+hr { display: none; }
+
 /*//////////////////////////////////////////////////
 --------------------------------------------------
 MEDIA QUERY
@@ -54,12 +56,13 @@ MEDIA QUERY
 
 @media screen and (max-width: 768px) {
 
-
+  hr { display: block; }
 
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
 
   .lezioni img { height: 100px; }
+  hr { display: block; }
 
 }
